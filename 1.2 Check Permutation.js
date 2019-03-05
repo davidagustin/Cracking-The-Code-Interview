@@ -1,7 +1,7 @@
 /*
 Check Permutation: Given two strings,write a method to decide if one is a permutation of the
 other.
- */
+*/
 
 /*
 Assumptions:
@@ -9,7 +9,7 @@ Assumptions:
 2. Characters are all lower case
 3. Characters are all in the English Alphabet
 4. No spaces are included
- */
+*/
 
 
 const checkPermutation = (string1, string2) => {

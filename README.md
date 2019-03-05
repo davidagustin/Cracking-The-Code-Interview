@@ -52,7 +52,9 @@ or words (except when labeling things with a name). You may need to show sample 
 6. Verification: Using sample data, walk through your pseudocode plan to verify the plan work as expected (When using 
 TDD, you should write a test at this point)
 7. Implementation: Turn your pseudocode into real code.
+
 <h3>Whiteboarding Key Pointers:</h3>
+
 O-ICE = <b> Output, Input, Constraints, Edge Cases </b>
 
 Output:
@@ -87,7 +89,7 @@ Identify special cases that will need additional consideration in your algorithm
 - do we have allocated space for increasing array size?
 - empty array
 
-<h2>Sequence of WhiteBoarding</h2>
+<h2>Sequence of WhiteBoarding:</h2>
 O-ICE --> Diagramming --> Pseudocode
 
-Always refer logic to a previous section
+Always refer logic to a previous section.

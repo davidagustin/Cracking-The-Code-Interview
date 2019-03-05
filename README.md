@@ -37,20 +37,27 @@ Test in this order:
 (BUD Optimization: Bottlenecks, Unnecessary Work, Duplicated Work)
 
 <h3>Problem Solving Process:</h3>
+
 1. Specification: Identify valid datatypes and ranges for output and inputs, as well as any side effects on inputs, 
 external variable bindings, program environment, or hardware.
+
 2. Justification: In one or two sentences, describe the purpose of calling this function.
+
 3. Explanation: Clearly state the relationship between inputs and outputs. Use plain english to completely explain the
 the system's effects and behavior. Don't use any code in your explanation.
+
 4. Visualization: Draw a plan for solving the problem that an engineer would understand. Use pictures and avoid letters
 or words (except when labeling things with a name). You may need to show sample data.
+
 5. Approximation: Pseudocode your plan. Each line should be: 
     - Unambiguous
     - A clear step toward the goal
     - Understandable without reading other steps
     - As high level as possible (You'll use helper functions in smaller steps)
+
 6. Verification: Using sample data, walk through your pseudocode plan to verify the plan work as expected (When using 
 TDD, you should write a test at this point)
+
 7. Implementation: Turn your pseudocode into real code.
 
 <h3>Whiteboarding Key Pointers:</h3>

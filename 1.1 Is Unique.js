@@ -36,9 +36,9 @@ const actual = isUniqueOptimized(argument);
 const expected = false;
 const testCase = 'Determines if string has unique characters';
 
-const assertEquals = (input, output, testCase) => {
-  if (input !== output) {
-    return `ERROR ${testCase}: Expected ${output} but got ${input}`
+const assertEquals = (actual, expected, testCase) => {
+  if (actual !== expected) {
+    return `ERROR ${testCase}: Expected ${expected} but got ${actual}`
   }
   return 'Passed';
 };

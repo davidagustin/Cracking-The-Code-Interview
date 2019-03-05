@@ -44,9 +44,9 @@ const actual = checkPermutation(argument1, argument2);
 const expected = false;
 const testCase = 'Checks if one string is permutation of the other';
 
-const assertEquals = (input, output, testCase) => {
-  if (input !== output) {
-    return `ERROR ${testCase}: Expected ${output} but got ${input}`;
+const assertEquals = (actual, expected, testCase) => {
+  if (actual !== expected) {
+    return `ERROR ${testCase}: Expected ${expected} but got ${actual}`;
   }
   return 'Passed';
 };

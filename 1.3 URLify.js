@@ -10,9 +10,9 @@ Assumptions:
 
 const urlify = (string) => {
   // trim outside white spaces of string
-  let trimmedString = string.trim();
+  string = string.trim();
   // split string by space
-  string = trimmedString.split(' ');
+  string = string.split(' ');
   // join string delimited by %20 and return
   return string.join('%20')
 };

@@ -13,7 +13,7 @@ enough?
 3. Brute Force:
 Get a brute-force solution as soon as possible. Don't worry about developing an efficient algorithm and its runtime,
 then optimize from there. Don't code yet though!
-4. Optimize
+4. Optimize:
 Walk through your brute force with BUD optimization or try some of these ideas:
     - Look for any unused info. You usually need all the information in a problem.
     - Solve it manually on an example, then reverse engineer your thought process. How did you solve it?
@@ -22,10 +22,10 @@ Walk through your brute force with BUD optimization or try some of these ideas:
 5. Walk Through:
 Now that you have an optimal solution, walk through your approach in detail. Make sure you understand each detail before
 you start coding.   
-6. Implement
+6. Implement:
 Your goal is to write beautiful code. Modularize your code from the beginning and refactor to clean up anything that
 isn't beautiful.
-7. Test
+7. Test:
 Test in this order:
     1. Conceptual test. Walk through your code like you would for a detailed code review
     2. Unusual or non-standard code.
@@ -58,7 +58,7 @@ TDD, you should write a test at this point)
 O-ICE = <b> Output, Input, Constraints, Edge Cases </b>
 
 Output:
-Ask exactly what your algorithm should return
+Ask exactly what your algorithm should return.
 
 Input:
 Ask exactly what your algorithm will receive to perform work on.

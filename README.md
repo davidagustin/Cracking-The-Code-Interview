@@ -78,13 +78,13 @@ Identify special cases that will need additional consideration in your algorithm
 - all the same values
 - all zeros
 
-<h3>Strings</h3>
+<h3>Strings:</h3>
 - duplicate characters
 - non-alphanumeric (!@#$%^&*)
 - all the same characters
 - empty string
 
-<h3>Arrays</h3>
+<h3>Arrays:</h3>
 - modify the input?
 - do we have allocated space for increasing array size?
 - empty array

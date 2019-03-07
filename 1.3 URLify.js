@@ -14,7 +14,7 @@ const urlify = (string) => {
   // split string by space
   string = string.split(' ');
   // join string delimited by %20 and return
-  return string.join('%20')
+  return string.join('%20');
 };
 
 // "Mr John Smith    " => "Mr%20John%20Smith"
@@ -27,7 +27,7 @@ const testName = 'Replaces all spaces in string with %20';
 
 const assertEquals = (actual, expected, testName) => {
   if (actual !== expected) {
-    return `ERROR ${testName}: Expected ${expected} but got ${actual}`
+    return `ERROR ${testName}: Expected ${expected} but got ${actual}`;
   }
   return 'Passed';
 };

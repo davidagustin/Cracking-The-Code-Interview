@@ -34,15 +34,15 @@ const stringCompression = (string) => {
       // else
     } else {
       // increase currentCount by 1
-      currentCount += 1
+      currentCount += 1;
     }
   }
   // return compressedString if smaller than argument
   if (compressedString.length < string.length) {
-    return compressedString
+    return compressedString;
   } else {
     // else return argument
-    return string
+    return string;
   }
 }
 
@@ -50,18 +50,18 @@ const stringCompression = (string) => {
 const argument1a = 'aabcccccaaa';
 const actual1 = stringCompression(argument1a);
 const expected1 = 'a2b1c5a3';
-const testCase1 = 'The string is compressed by repeats of characters'
+const testCase1 = 'The string is compressed by repeats of characters';
 
 const argument1b = 'abc';
 const actual2 = stringCompression(argument1b);
 const expected2 = 'abc';
-const testCase2 = 'Returns original string if compressed string is larger'
+const testCase2 = 'Returns original string if compressed string is larger';
 
 const assertEquals = (actual, expected, testCase) => {
   if (actual !== expected) {
     return `ERROR ${testCase}: Expected ${expected} but got ${actual}`;
   }
-  return 'Passed'
+  return 'Passed';
 };
 
 const answer1 = assertEquals(actual1, expected1, testCase1);

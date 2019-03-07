@@ -16,16 +16,16 @@ const rotateMatrix = (matrix) => {
       // bitwise operations XOR
       matrix[i][j] ^= matrix[j][i];
       matrix[j][i] ^= matrix[i][j];
-      matrix[i][j] ^= matrix[j][i]
+      matrix[i][j] ^= matrix[j][i];
     }
   }
   // for loop
   for (let i = 0; i < matrix.length; i += 1) {
     // reverse each row
-    matrix[i] = matrix[i].reverse()
+    matrix[i] = matrix[i].reverse();
   }
   // return matrix
-  return matrix
+  return matrix;
 };
 
 // test cases

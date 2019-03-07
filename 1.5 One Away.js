@@ -17,7 +17,7 @@ const oneAway = (string1, string2) => {
     // match characters
     if (string1[i] === string2[i]) {
       // increase sameElementForwards for match
-      sameElementForwards += 1
+      sameElementForwards += 1;
     }
   }
   // loop through index backwards
@@ -25,7 +25,7 @@ const oneAway = (string1, string2) => {
     // compare the elements from the ends of string1 and string 2
     if (string1[string1.length - 1 - i] === string2[string2.length - 1 - i]) {
       // increase sameElementBackwards for match
-      sameElementBackwards += 1
+      sameElementBackwards += 1;
     }
   }
 
@@ -37,11 +37,11 @@ const oneAway = (string1, string2) => {
     //else if
   } else if (string1.length - (sameElementForwards + sameElementBackwards) === 1) {
     // conditional return for string1's length minus sameElementForwards plus sameElementBackwards equals to 1
-    return true
+    return true;
     // else
   } else {
     //return false
-    return false
+    return false;
   }
 };
 

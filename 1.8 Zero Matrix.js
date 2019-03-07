@@ -96,7 +96,7 @@ const testCase4 = "Can work with a 3x3 matrix";
 
 const assertArrayEquals = (actual, expected, testCase) => {
   if (JSON.stringify(actual) !== JSON.stringify(expected)) {
-    return `ERROR ${testCase}: Expected ${expected} but got ${actual}`
+    return `ERROR ${testCase}: Expected ${expected} but got ${actual}`;
   }
   return 'Passed';
 };
@@ -111,7 +111,7 @@ const answer3 = assertArrayEquals(actual3, expected3, testCase3);
 console.log(answer3);
 
 const answer4 = assertArrayEquals(actual4, expected4, testCase4);
-console.log(answer4)
+console.log(answer4);
 
 /*
 Notes:

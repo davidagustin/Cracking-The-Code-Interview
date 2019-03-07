@@ -24,8 +24,6 @@ const actual2 = stringRotation(argument1b, argument2b);
 const expected2 = false;
 const testCase2 = 'Checks if rotation of the first argument if is NOT a valid rotation of the second argument';
 
-
-
 const assertEquals = (actual, expected, testCase) => {
   if (actual !== expected) {
     `ERROR ${testCase}: Expected ${expected} but got ${actual}`;
@@ -43,4 +41,3 @@ console.log(answer2);
 Notes:
 1. The first string can add to itself and then a substring can possibly be found on the second string.
 */
-

@@ -97,6 +97,7 @@ const argument = 'Tact Coa';
 const expected = true;
 const actual = palindromePermutationOptimization(argument);
 const testCase = 'Check if string is both a permutation and palindrome';
+
 const argument2 = 'aaabbb';
 const actual2 = palindromePermutationOptimization(argument2);
 const expected2 = false;

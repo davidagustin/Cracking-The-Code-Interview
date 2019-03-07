@@ -39,9 +39,9 @@ const checkPermutation = (string1, string2) => {
 // string1 = 'abc', string2 = 'cbd' => false
 
 // test cases
-const argument1 = 'abc';
-const argument2 = 'cbd';
-const actual = checkPermutation(argument1, argument2);
+const argument1a = 'abc';
+const argument2a = 'cbd';
+const actual = checkPermutation(argument1a, argument2a);
 const expected = false;
 const testCase = 'Checks if one string is permutation of the other';
 

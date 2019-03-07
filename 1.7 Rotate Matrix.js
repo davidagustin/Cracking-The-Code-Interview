@@ -56,6 +56,6 @@ console.log(answer1);
 
 /*
 Notes:
-1. Already havd done this problem before
+1. Already done this problem before.
 2. When doing assert functions on arrays, remember not to compare them directly.
 */

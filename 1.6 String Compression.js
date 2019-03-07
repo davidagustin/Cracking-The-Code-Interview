@@ -72,5 +72,5 @@ console.log(answer2);
 
 /*
 Notes:
-1. Check conditional statements
+1. Check conditional statements.
 */

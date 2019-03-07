@@ -115,5 +115,5 @@ console.log(answer4)
 
 /*
 Notes:
-1. Do a deep copy of an array or object by using JSON.stringify() and then following up by JSON.parse()
+1. Do a deep copy of an array or object by using JSON.stringify() and then following up by JSON.parse().
 */

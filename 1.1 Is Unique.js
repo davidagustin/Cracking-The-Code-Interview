@@ -49,5 +49,5 @@ console.log(answer);
 
 /*
 Notes:
-1. Ask if string is in ASCII or Unicode
+1. Ask if string is in ASCII or Unicode.
 */

@@ -58,7 +58,7 @@ console.log(answer);
 
 /*
 Notes:
-Ask if case sensitive and if whitespaces are an edge case
-Ask size of character set
-Ask if character set is in ASCII or Unicode
+1. Ask if case sensitive and if whitespaces are an edge case.
+2. Ask size of character set.
+3. Ask if character set is in ASCII or Unicode.
 */

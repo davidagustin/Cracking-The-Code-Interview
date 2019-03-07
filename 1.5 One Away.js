@@ -126,5 +126,5 @@ console.log(answer7);
 
 /*
 Notes:
-1. Look for edge cases, there may be repeats of the same letters
+1. Look for edge cases, there may be repeats of the same letters.
 */

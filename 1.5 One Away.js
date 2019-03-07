@@ -8,35 +8,35 @@ const oneAway = (string1, string2) => {
   if (string1 === string2) return true;
   // create edge case for empty strings
   if (string1.trim() === string2.trim()) return true;
-  // initialize 0 to varaible named sameIndexForward
-  let sameIndexForward = 0;
-  // initialize 0 to varaible named sameIndexBackwards
-  let sameIndexBackwards = 0;
+  // initialize 0 to varaible named sameElementForwards
+  let sameElementForwards = 0;
+  // initialize 0 to varaible named sameElementBackwards
+  let sameElementBackwards = 0;
   // loop through string2 forwards
   for (let i = 0; i < string2.length; i++) {
     // match characters
     if (string1[i] === string2[i]) {
-      // increase sameIndexForward for match
-      sameIndexForward += 1
+      // increase sameElementForwards for match
+      sameElementForwards += 1
     }
   }
   // loop through index backwards
   for (let i = 0; i < string2.length; i++) {
     // compare the elements from the ends of string1 and string 2
     if (string1[string1.length - 1 - i] === string2[string2.length - 1 - i]) {
-      // increase sameIndexBackwards for match
-      sameIndexBackwards += 1
+      // increase sameElementBackwards for match
+      sameElementBackwards += 1
     }
   }
 
-  // conditional for equality of sameIndexForward and sameIndexBackwards
-  if (sameIndexForward === sameIndexBackwards) {
-    // when equal conditional return for string1's length minus the max of sameIndexForward and sameIndexBackwards
+  // conditional for equality of sameElementForwards and sameElementBackwards
+  if (sameElementForwards === sameElementBackwards) {
+    // when equal conditional return for string1's length minus the max of sameElementForwards and sameElementBackwards
     // equals to 1
-    return string1.length - sameIndexForward === 1;
+    return string1.length - sameElementForwards === 1;
     //else if
-  } else if (string1.length - (sameIndexForward + sameIndexBackwards) === 1) {
-    // conditional return for string1's length minus sameIndexForward plus sameIndexBackwards equals to 1
+  } else if (string1.length - (sameElementForwards + sameElementBackwards) === 1) {
+    // conditional return for string1's length minus sameElementForwards plus sameElementBackwards equals to 1
     return true
     // else
   } else {

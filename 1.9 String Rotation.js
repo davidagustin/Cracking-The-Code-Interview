@@ -41,6 +41,6 @@ console.log(answer2);
 
 /*
 Notes:
-1. The first string can add to itself then a substring can possibly be found on the second.
+1. The first string can add to itself and then a substring can possibly be found on the second string.
 */
 

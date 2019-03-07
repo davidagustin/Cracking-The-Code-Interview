@@ -102,14 +102,14 @@ O-ICE --> Diagramming --> Pseudocode
 Always refer logic to a previous section.
 
 <h3>What Good Coding Looks Like:</h3>
-- Correct: The code should operate correctly on all expected and unexpected inputs.
-- Efficient: The code should operate as efficiently as possible in terms of both time and space. This "efficiency" 
+    - Correct: The code should operate correctly on all expected and unexpected inputs.
+    - Efficient: The code should operate as efficiently as possible in terms of both time and space. This "efficiency" 
 includes both the asymptotic (big O) efficiency and practical real-life efficiency. That is, a constant factor might get
 dropped when you compute the big O time, but in real life, it can very much matter.
-- Simple: If you can do something in 10 lines instead of 100, you should. Code as quick as possible for a developer to 
+    - Simple: If you can do something in 10 lines instead of 100, you should. Code as quick as possible for a developer to 
 write.
-- Readable: A different developer should be able to read your code and understand what it does and how does it. Readable
+    - Readable: A different developer should be able to read your code and understand what it does and how does it. Readable
 code has comments where necessary, but it implements things in an easily understandable way. That means your fancy code
 that does a bunch of bit shifting is not necessarily good code.
-- Maintainable: Code should be reasonable adaptable to changes during the life cycle of a product and should be easy to
+    - Maintainable: Code should be reasonable adaptable to changes during the life cycle of a product and should be easy to
 maintain by other developers, as well as the initial developer.

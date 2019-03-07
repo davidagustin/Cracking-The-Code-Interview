@@ -4,6 +4,10 @@ replace a character. Given two strings, write a function to check if they are on
 */
 
 const oneAway = (string1, string2) => {
+  // create edge case for string equality
+  if (string1 === string2) return true;
+  // create edge case for empty strings
+  if (string1.trim() === string2.trim()) return true;
   // initialize 0 to varaible named sameIndexForward
   let sameIndexForward = 0;
   // initialize 0 to varaible named sameIndexBackwards
@@ -82,6 +86,17 @@ const expected5 = true;
 const actual5 = oneAway(argument1e, argument2e);
 const testCase5 = 'Can still detect match if both strings have more than one of the same character';
 
+const argument1f = 'abc';
+const argument2f = 'abc';
+const expected6 = true;
+const actual6 = oneAway(argument1f, argument2f);
+const testCase6 = 'Returns true of both arguments are the same';
+
+const argument1g = '';
+const argument2g = ' ';
+const expected7 = true;
+const actual7 = oneAway(argument1g, argument2g);
+const testCase7 = 'Returns true with empty spaces or empty strings';
 
 const assertEquals = (actual, expected, testCase) => {
   if (actual !== expected) {
@@ -104,6 +119,12 @@ console.log(answer4);
 
 const answer5 = assertEquals(actual5, expected5, testCase5);
 console.log(answer5);
+
+const answer6 = assertEquals(actual6, expected6, testCase6);
+console.log(answer6);
+
+const answer7 = assertEquals(actual7, expected7, testCase7);
+console.log(answer7);
 
 /*
 Notes:

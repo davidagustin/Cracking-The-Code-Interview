@@ -7,7 +7,7 @@ is a rotation of"erbottlewat").
 const stringRotation = (s1, s2) => {
   // create regular expression class with s2 as an argument and initialize it to variable named regExp
   const regExp = new RegExp(s2);
-  // Use the RegExp class method test with s1 added to itself
+  // use the RegExp class method test with s1 added to itself
   return regExp.test(s1 + s1);
 }
 

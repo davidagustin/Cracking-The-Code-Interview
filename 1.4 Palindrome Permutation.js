@@ -66,12 +66,12 @@ const palindromePermutation = (string) => {
 
 // test cases
 const argument = 'Tact Coa';
-const argument2 = 'aaabbb';
-const actual = palindromePermutation(argument);
 const expected = true;
+const actual = palindromePermutation(argument);
+const testCase = 'Check if string is both a permutation and palindrome';
+const argument2 = 'aaabbb';
 const actual2 = palindromePermutation(argument2);
 const expected2 = false;
-const testCase = 'Check if string is both a permutation and palindrome';
 const testCase2 = 'Function returns false if there is more than one set chacracters with odd numbers'
 
 const assertEquals = (actual, expected, testCase) => {

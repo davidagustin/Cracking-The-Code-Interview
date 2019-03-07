@@ -121,4 +121,4 @@ Notes:
 counterHash[string[i]] + 1 || 1 and NOT counterHash[string[i]] = counterHash[string[i]] += 1 || 1; because it will
 return NaN
 2. Beware of boolean statements and double check if it fits the logic of the pseudocode.
- */
+*/

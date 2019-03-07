@@ -61,16 +61,44 @@ const palindromePermutation = (string) => {
   return true;
 };
 
+const palindromePermutationOptimization = (string) => {
+  // initialize 0 to variable named oddCount
+  let oddCount = 0;
+  // trim, split by space, join without delimiters and then put string to lower case
+  string = string.trim().split(' ').join('').toLowerCase();
+  // create empty bit vector for each lower case character of the alphabet
+  let bitVector = new Array(26).fill(0)
+  // create empty variable for bitwise subtraction named bitWiseNumber
+  let bitwiseNumber;
+  // for loop
+  for (let i = 0; i < string.length; i += 1) {
+    // populate bit vector by odd occurrences
+    if (bitVector[string[i].charCodeAt(0) - 97] === 0) {
+      // switch element of bitVector to 1 if 0
+      bitVector[string[i].charCodeAt(0) - 97] = 1
+      // increase oddCount
+      oddCount += 1;
+    } else {
+      // switch element of bitVector to 0 if 1
+      bitVector[string[i].charCodeAt(0) - 97] = 0
+      // decrease oddCount
+      oddCount -= 1;
+    }
+  }
+  // return count less than or equal to 1
+  return oddCount <= 1
+};
+
 // Tact Coa => True (taco cat, atco cta)
 // aaabbb => False (character occurrences cannot have more than one set of odd numbers)
 
 // test cases
 const argument = 'Tact Coa';
 const expected = true;
-const actual = palindromePermutation(argument);
+const actual = palindromePermutationOptimization(argument);
 const testCase = 'Check if string is both a permutation and palindrome';
 const argument2 = 'aaabbb';
-const actual2 = palindromePermutation(argument2);
+const actual2 = palindromePermutationOptimization(argument2);
 const expected2 = false;
 const testCase2 = 'Function returns false if there is more than one set chacracters with odd numbers'
 

@@ -102,6 +102,7 @@ O-ICE --> Diagramming --> Pseudocode
 Always refer logic to a previous section.
 
 <h3>What Good Coding Looks Like:</h3>
+
 - Correct: The code should operate correctly on all expected and unexpected inputs.
     
 - Efficient: The code should operate as efficiently as possible in terms of both time and space. This "efficiency" 

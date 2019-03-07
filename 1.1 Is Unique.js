@@ -47,5 +47,7 @@ const answer = assertEquals(actual, expected, testCase);
 
 console.log(answer);
 
-// Notes:
-// Ask if string is in ASCII or Unicode
+/*
+Notes:
+1. Ask if string is in ASCII or Unicode
+*/

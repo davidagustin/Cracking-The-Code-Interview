@@ -19,6 +19,7 @@ const urlify = (string) => {
 
 // "Mr John Smith    " => "Mr%20John%20Smith"
 
+// test cases
 const argument = "Mr John Smith    ";
 const actual = urlify(argument);
 const expected = "Mr%20John%20Smith";

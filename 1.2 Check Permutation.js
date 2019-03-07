@@ -38,6 +38,7 @@ const checkPermutation = (string1, string2) => {
 // string1 = 'abc', string2 = 'cba' => true
 // string1 = 'abc', string2 = 'cbd' => false
 
+// test cases
 const argument1 = 'abc';
 const argument2 = 'cbd';
 const actual = checkPermutation(argument1, argument2);
@@ -55,7 +56,9 @@ const answer = assertEquals(actual, expected, testCase);
 
 console.log(answer);
 
-// Notes:
-// Ask if case sensitive and if whitespaces are an edge case
-// Ask size of character set
-// Ask if character set is in ASCII or Unicode
+/*
+Notes:
+Ask if case sensitive and if whitespaces are an edge case
+Ask size of character set
+Ask if character set is in ASCII or Unicode
+*/

@@ -82,7 +82,7 @@ const assertEquals = (actual, expected, testCase) => {
 };
 
 const answer1 = assertEquals(actual, expected, testCase);
-const answer2 = assertEquals(actual2, expected2, testCase);
+const answer2 = assertEquals(actual2, expected2, testCase2);
 
 console.log(answer1);
 console.log(answer2);

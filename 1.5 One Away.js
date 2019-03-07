@@ -12,8 +12,6 @@ const oneAway = (string1, string2) => {
   let sameIndexForward = 0;
   // initialize 0 to varaible named sameIndexBackwards
   let sameIndexBackwards = 0;
-  // split string1 with no delimiter and initalize it to variable characters
-  let characters = string1.split('')
   // loop through string2 forwards
   for (let i = 0; i < string2.length; i++) {
     // match characters

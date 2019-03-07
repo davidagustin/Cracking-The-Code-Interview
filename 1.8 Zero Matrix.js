@@ -64,7 +64,7 @@ const expected2 =
   [
     [1]
   ];
-const testCase2 = 'Returns an array with length 1';
+const testCase2 = 'Returns a matrix with length 1';
 
 const argument3a =
   [
@@ -77,7 +77,7 @@ const expected3 =
     [1, 1],
     [1, 1]
   ];
-const testCase3 = "Does not modify an array without 0's";
+const testCase3 = "Does not modify matrix without 0's";
 
 const argument4a =
   [

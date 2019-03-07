@@ -5,7 +5,7 @@ rotate the image by 90 degrees. Can you do this in place?
 
 /*
 Assumptions:
-1. Rotate means rotating a matrix 90 degrees to the right
+1. Rotate means rotating a matrix 90 degrees to the right.
 */
 
 const rotateMatrix = (matrix) => {

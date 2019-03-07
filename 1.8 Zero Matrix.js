@@ -11,7 +11,7 @@ const setToZero = (matrix, i, j) => {
       if (k === i) {
         matrix[k][l] = 0;
       }
-      // conditional to match column set to zero
+      // conditional to match column, set to zero
       if (l === j) {
         matrix[k][l] = 0;
       }

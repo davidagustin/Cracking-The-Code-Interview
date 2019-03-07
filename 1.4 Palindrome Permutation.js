@@ -6,8 +6,8 @@ does not need to be limited to just dictionary words.
 
 /*
 Assumptions:
-1. Function is not case sensitive
-2. Characters are of the english alphabet
+1. Function is not case sensitive.
+2. Characters are of the english alphabet.
 */
 
 const palindromePermutation = (string) => {

@@ -5,10 +5,10 @@ other.
 
 /*
 Assumptions:
-1. Characters are in ASCII, not Unicode
-2. Characters are all lower case
-3. Characters are all in the English Alphabet
-4. No spaces are included
+1. Characters are in ASCII, not Unicode.
+2. Characters are all lower case.
+3. Characters are all in the English Alphabet.
+4. No spaces are included.
 */
 
 

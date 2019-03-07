@@ -5,7 +5,7 @@ at the end to hold the additional characters,and that you are given the "true" l
 
 /*
 Assumptions:
-1. True length isn't needed because javascript has a native method to eliminate whitespaces
+1. True length isn't needed because javascript has a native method to eliminate whitespaces.
 */
 
 const urlify = (string) => {

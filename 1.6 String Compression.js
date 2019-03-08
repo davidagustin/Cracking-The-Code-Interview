@@ -27,7 +27,7 @@ const stringCompression = (string) => {
       compressedString += currentLetter;
       // concatenate currentCount with compressedString
       compressedString += currentCount;
-      // reassign currentLetter with currentElement
+      // reassign currentLetter with element of string
       currentLetter = string[i];
       // reassign currentCount to number 1
       currentCount = 1;
